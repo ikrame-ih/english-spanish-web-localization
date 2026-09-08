@@ -1,0 +1,1 @@
+# english-spanish-web-localization
