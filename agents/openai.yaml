@@ -1,0 +1,7 @@
+interface:
+  display_name: "English–Spanish Web Localization (UK/US/Spain/LatAm)"
+  short_description: "Context-aware localization across four strict locales"
+  default_prompt: "Use $english-spanish-web-localization to localize or audit this website between en-GB, en-US, es-ES, and es-419 with contextual, linguistic, visual, and technical QA."
+
+policy:
+  allow_implicit_invocation: true
