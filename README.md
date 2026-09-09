@@ -4,7 +4,7 @@
 
 ## English
 
-A reusable Codex skill for context-aware, bidirectional localization of websites and digital products across four deliberately separate locales:
+A reusable agent skill for context-aware, bidirectional localization of websites and digital products across four deliberately separate locales:
 
 | Locale | Target variety |
 |---|---|
@@ -36,25 +36,23 @@ For example, **“Checklist for landing in Málaga”** may describe relocation 
 
 ### Installation
 
-Once published at the proposed repository address, install it with:
+Install it with the Skills CLI in any supported agent environment:
 
 ```bash
 npx skills add ikrame-ih/english-spanish-web-localization
 ```
 
-Alternatively, clone the repository into the skills directory used by your Codex environment. The folder name must match the skill name:
+Alternatively, clone the repository into the skills directory used by your agent. The folder name must match the skill name:
 
 ```text
 english-spanish-web-localization/
 ```
 
-Invoke it explicitly as:
+The same core package works with [Claude Code](https://www.skills.sh/agent/claude-code), [Cursor](https://www.skills.sh/agent/cursor), [Codex](https://www.skills.sh/agent/codex), and [GitHub Copilot](https://www.skills.sh/agent/github-copilot), as well as other agents supported by the Skills CLI. `SKILL.md`, the references, and the deterministic checks are agent-neutral. [`agents/openai.yaml`](agents/openai.yaml) is optional Codex-facing interface metadata; agents that do not use it can ignore it.
 
-```text
-$english-spanish-web-localization
-```
+When an agent supports explicit skill invocation, use `$english-spanish-web-localization`; otherwise invoke it through that agent’s usual skills workflow.
 
-Example request:
+Example request for agents with explicit invocation:
 
 ```text
 Use $english-spanish-web-localization to localize this product site from en-US to es-ES. Preserve the concise brand voice, audit responsive text fit, and ask me before resolving any material preference that the available context does not settle.
@@ -118,7 +116,7 @@ The README will show a small set of real `no skill` versus `with skill` case stu
 
 ## Español
 
-Una skill reutilizable para Codex que localiza de forma contextual y bidireccional sitios web y productos digitales entre cuatro locales deliberadamente separados:
+Una skill reutilizable para agentes que localiza de forma contextual y bidireccional sitios web y productos digitales entre cuatro locales deliberadamente separados:
 
 | Locale | Variante de destino |
 |---|---|
@@ -150,25 +148,23 @@ Por ejemplo, **“Checklist for landing in Málaga”** puede hablar de una relo
 
 ### Instalación
 
-Cuando esté publicado en el repositorio propuesto, instálalo con:
+Instálala con la CLI de Skills en cualquier entorno de agente compatible:
 
 ```bash
 npx skills add ikrame-ih/english-spanish-web-localization
 ```
 
-También puedes clonar el repositorio en el directorio de skills de tu entorno Codex. El nombre de la carpeta debe coincidir con el de la skill:
+También puedes clonar el repositorio en el directorio de skills de tu agente. El nombre de la carpeta debe coincidir con el de la skill:
 
 ```text
 english-spanish-web-localization/
 ```
 
-Invócala expresamente así:
+El mismo paquete base funciona con [Claude Code](https://www.skills.sh/agent/claude-code), [Cursor](https://www.skills.sh/agent/cursor), [Codex](https://www.skills.sh/agent/codex) y [GitHub Copilot](https://www.skills.sh/agent/github-copilot), además de otros agentes compatibles con la CLI de Skills. `SKILL.md`, las referencias y las comprobaciones deterministas no dependen de un agente concreto. [`agents/openai.yaml`](agents/openai.yaml) contiene metadatos opcionales de interfaz para Codex; los agentes que no lo empleen pueden ignorarlo.
 
-```text
-$english-spanish-web-localization
-```
+Cuando un agente admita invocación explícita de skills, usa `$english-spanish-web-localization`; en los demás casos, invócala desde el flujo habitual de skills de ese agente.
 
-Ejemplo:
+Ejemplo para agentes con invocación explícita:
 
 ```text
 Usa $english-spanish-web-localization para localizar este sitio de producto de en-US a es-ES. Conserva la voz concisa de la marca, revisa el encaje del texto en responsive y pregúntame antes de resolver cualquier preferencia relevante que el contexto disponible no determine.
