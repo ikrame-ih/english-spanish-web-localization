@@ -64,7 +64,7 @@ Combine modes when the request clearly requires them. Never expand an audit into
 - Separate linguistic adaptation from data conversion. Format locale-bound values; convert units or currencies only when requested and verifiable.
 - Preserve correct Unicode spelling and diacritics in human-facing copy. Never strip accents or `ñ` as a speculative compatibility measure.
 - Do not use back-translation, dictionary equivalence, or source-text similarity as proof of quality. Judge the target in its own context and verify fidelity separately.
-- In an audit, do not downgrade a contextually wrong calque to “style” merely because it is grammatical. If it activates a different sense, journey, or product concept in the target language, classify it as an accuracy or fluency defect and give a concise corrected rendering; leave implementation to the user unless authorized.
+- In an audit, do not downgrade a contextually wrong calque to “style” merely because it is grammatical. If it activates a different sense, journey, or product concept in the target language, classify it as an accuracy or fluency defect and give a concise corrected rendering; leave implementation to the user unless authorized. If the available context cannot settle whether that target-language reading is wrong, ask one targeted question before treating it as style or preference.
 
 ## Completion standard
 
