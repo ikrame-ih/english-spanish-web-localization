@@ -43,7 +43,7 @@ Severity is based on user impact, not how conspicuous the wording looks:
 - **Minor:** localized defect with limited impact that still warrants correction.
 - **Preference:** defensible alternative with no objective defect; never report it as an error.
 
-Do not label a contextual calque as a preference just because readers can infer the intended source-language meaning. Evaluate the target-language reading first: if it naturally evokes a contradictory action, object, setting, or user journey, it is a defect. Severity follows the affected surface: a key product claim, CTA, onboarding step, or safety/recovery instruction is normally at least **Major**; an isolated descriptive phrase may be **Minor**.
+Do not label a contextual calque as a preference just because readers can infer the intended source-language meaning. Evaluate the target-language reading first: if it naturally evokes a contradictory action, object, setting, or user journey, it is a defect. If the supplied context cannot settle that reading, ask one targeted question before categorising it as style or preference. Severity follows the affected surface: a key product claim, CTA, onboarding step, or safety/recovery instruction is normally at least **Major**; an isolated descriptive phrase may be **Minor**.
 
 A release passes only with zero critical and zero major issues, all deterministic integrity checks passing, and every required surface accounted for. If the project accepts another threshold, state it explicitly.
 
