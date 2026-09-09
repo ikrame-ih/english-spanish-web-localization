@@ -15,6 +15,8 @@ A reusable Codex skill for context-aware, bidirectional localization of websites
 
 This is not a word-replacement prompt. It treats copy as part of a product journey and evaluates meaning, audience, market, interface function, terminology, accessibility, SEO, layout constraints, and technical integrity before selecting a target formulation.
 
+It also applies that standard outside a webpage: portfolios, CVs, Markdown, documentation, emails, forms, CMS exports, and locale catalogues. The format changes the checks, not the required contextual accuracy.
+
 For example, **“Checklist for landing in Málaga”** may describe relocation rather than a plane landing. The skill first resolves that intent and can produce **“Lista para instalarte en Málaga”** or another context-appropriate version instead of the literal **“aterrizar”**.
 
 ### What it does
@@ -110,6 +112,10 @@ The guidance prioritizes product sources of truth and uses primary references in
 
 The portfolio corpus is a public, 30-case real-world regression corpus with a blinded human-scoring protocol. Every pair has a public URL, retrieval date, and page locator. It tests contextual interpretation, voice, technical terminology, required clarification, and restraint when the existing target is already defensible. It is evidence for a specific site—not a universal or bidirectional quality claim. The external pack takes priority and has strict admission rules before publication. See [`benchmarks/`](benchmarks/) and [`benchmarks/external/`](benchmarks/external/).
 
+### Visual paired evidence
+
+The README will show a small set of real `no skill` versus `with skill` case studies only after controlled paired runs exist. Each card will link to its raw outputs and blinded human review; UI screenshots are added only when the same real component has been rendered at the same viewport. See [`benchmarks/showcase.md`](benchmarks/showcase.md).
+
 ## Español
 
 Una skill reutilizable para Codex que localiza de forma contextual y bidireccional sitios web y productos digitales entre cuatro locales deliberadamente separados:
@@ -122,6 +128,8 @@ Una skill reutilizable para Codex que localiza de forma contextual y bidireccion
 | `es-419` | Español latinoamericano general |
 
 No es un prompt de sustitución de palabras. Trata cada texto como parte de la experiencia del producto y valora significado, público, mercado, función de la interfaz, terminología, accesibilidad, SEO, restricciones de espacio e integridad técnica antes de elegir la formulación final.
+
+También aplica este estándar fuera de una página web: portfolios, CV, Markdown, documentación, correos, formularios, exportaciones de CMS y catálogos de locales. Cambia la comprobación específica del formato, no el requisito de exactitud contextual.
 
 Por ejemplo, **“Checklist for landing in Málaga”** puede hablar de una relocalización, no del aterrizaje de un avión. La skill resuelve primero esa intención y puede proponer **“Lista para instalarte en Málaga”** en vez del calco **“aterrizar”**.
 
@@ -217,6 +225,10 @@ La guía prioriza las fuentes de verdad del producto y se apoya en referencias p
 | Pack externo bidireccional | — | — | — |
 
 El corpus del portfolio es una regresión pública de 30 casos reales con evaluación humana a ciegas. Cada par tiene URL pública, fecha de consulta y localizador de página. Evalúa interpretación contextual, voz, terminología técnica, aclaraciones obligatorias y la capacidad de no modificar un texto de destino ya defendible. Es evidencia de un sitio concreto, no una afirmación universal ni bidireccional. El pack externo tiene prioridad y solo se publicará cuando cumpla reglas estrictas de admisión. Consulta [`benchmarks/`](benchmarks/) y [`benchmarks/external/`](benchmarks/external/).
+
+### Evidencia visual emparejada
+
+El README mostrará unos pocos casos reales de `sin skill` frente a `con skill` solo después de contar con ejecuciones controladas y emparejadas. Cada ficha enlazará los outputs brutos y la revisión humana a ciegas; las capturas de interfaz solo se añadirán si el mismo componente real se ha renderizado en el mismo viewport. Consulta [`benchmarks/showcase.md`](benchmarks/showcase.md).
 
 ## License
 
