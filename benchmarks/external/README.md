@@ -17,7 +17,7 @@ Reject examples whose locale cannot be established, whose source is private, who
 
 ## Publication rule
 
-The pack contains 30 cases drawn equally from Box Annotations, CodeCombat, and Mouse Tooltip Translator. Report it separately from the portfolio regression corpus and never merge their scores.
+The pack contains 30 cases drawn equally from Box Annotations, Box UI Elements, and Mouse Tooltip Translator. Report it separately from the portfolio regression corpus and never merge their scores.
 
 ## What the records establish
 
