@@ -1,6 +1,6 @@
 # External evidence pack
 
-This directory is reserved for the independent corpus that takes priority over further portfolio-only cases. It is intentionally empty until every included example satisfies the rules below.
+This directory contains the independent corpus that takes priority over further portfolio-only cases. The 30 records in [`cases.jsonl`](cases.jsonl) are real, public user-facing catalogue strings from three products not owned by this repository's author. Each pair is pinned to a public source commit and was retrieved on 2026-09-09.
 
 ## Admission rules
 
@@ -17,4 +17,13 @@ Reject examples whose locale cannot be established, whose source is private, who
 
 ## Publication rule
 
-Publish the external pack only when it contains at least 30 cases drawn from at least three independent products. Report it separately from the portfolio regression corpus and never merge their scores.
+The pack contains 30 cases drawn equally from Box Annotations, CodeCombat, and Mouse Tooltip Translator. Report it separately from the portfolio regression corpus and never merge their scores.
+
+## What the records establish
+
+- The source and observed target are real product strings, not invented prompts.
+- The source and observed-target URLs make each string independently checkable.
+- Existing observed copy is evidence, **not** automatic ground truth. The human-reviewed `expected` decision may be `pass`, `change`, or `ask`.
+- `es-ES → en-GB`, `es-ES → en-US`, `en-GB → es-419`, and `en-US → es-419` all occur in the corpus.
+
+This is still a benchmark corpus, not an executed model comparison. Paired outputs and aggregate results must follow [`../paired-run-protocol.md`](../paired-run-protocol.md).
