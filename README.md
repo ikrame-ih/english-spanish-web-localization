@@ -94,6 +94,10 @@ The skill supports localization, audits, terminology, strategy, and QA. It does 
 
 The guidance prioritizes product sources of truth and uses primary references including RAE/ASALE, FundéuRAE, Unicode CLDR and UTS #35, W3C Internationalization and WCAG, Google Search Central, Greenhouse, and Textkernel. See [`references/research-and-evidence.md`](references/research-and-evidence.md).
 
+### Benchmark
+
+The repository includes a public, 30-case real-world regression corpus and a blinded human-scoring protocol. Every source/target pair is live copy from `ikrame.dev`, with a public URL, retrieval date, and page locator. It tests contextual interpretation, voice, technical terminology, required clarification, and restraint when the existing target is already defensible. It contains no unverified performance claim: results are added only after paired baseline and skill-assisted runs. See [`benchmarks/`](benchmarks/).
+
 ## Español
 
 Una skill reutilizable para Codex que localiza de forma contextual y bidireccional sitios web y productos digitales entre cuatro locales deliberadamente separados:
@@ -185,6 +189,10 @@ La skill sirve para localización, auditoría, terminología, estrategia y QA. N
 ### Fuentes
 
 La guía prioriza las fuentes de verdad del producto y se apoya en referencias primarias como RAE/ASALE, FundéuRAE, Unicode CLDR y UTS #35, W3C Internationalization y WCAG, Google Search Central, Greenhouse y Textkernel. Consulta [`references/research-and-evidence.md`](references/research-and-evidence.md).
+
+### Benchmark
+
+El repositorio incluye un corpus público de regresión de 30 casos reales y un protocolo de evaluación humana a ciegas. Cada par origen/destino procede de texto activo de `ikrame.dev`, con URL pública, fecha de consulta y localizador de la página. Evalúa interpretación contextual, voz, terminología técnica, aclaraciones obligatorias y la capacidad de no modificar un texto de destino ya defendible. No contiene una afirmación de rendimiento sin verificar: los resultados solo se añaden tras ejecuciones emparejadas, con y sin la skill. Consulta [`benchmarks/`](benchmarks/).
 
 ## License
 
