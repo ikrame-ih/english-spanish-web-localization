@@ -1,6 +1,6 @@
 ---
 name: english-spanish-web-localization
-description: Plan, execute, audit, and QA contextual English–Spanish localisation among British English (en-GB), US English (en-US), Spanish for Spain (es-ES), and Latin American Spanish (es-419). Use for websites, apps, portfolios, CVs, Markdown, documentation, repositories, locale catalogues, CMS exports, accessibility, and terminology systems; not for certified translation.
+description: Create first-time English–Spanish localizations or audit and improve existing translations, in either direction across en-GB, en-US, es-ES, and es-419. Use for websites, apps, portfolios, CVs, Markdown, documentation, locale catalogues, and related accessibility and SEO copy; not for certified translation.
 ---
 
 # English–Spanish web localizer
@@ -41,6 +41,15 @@ Treat headlines, CTAs, navigation, legal/financial/medical claims, official inst
 3. Compare two or more natural target formulations internally; select by accuracy, idiomaticity, function, voice, consistency, and space.
 4. Verify specialized or unstable terminology using the evidence hierarchy when browsing or authoritative project sources are available.
 5. Ask or flag the item if materially different readings remain. Never hide uncertainty behind fluent wording.
+
+## Choose the content workflow
+
+Apply these workflows in either English–Spanish direction and to any supported format. An existing target translation is not required to use this skill.
+
+- **First-time localization:** when the target language is absent, derive the intended meaning from the source and relevant product evidence, then create complete target copy in the requested locale. Do not require an existing translation or stop at an audit. Preserve structure and cover the requested content surfaces; integrate into the existing project when implementation is requested. Mark unresolved passages explicitly and complete independent work elsewhere.
+- **Review and improvement:** when target copy exists, compare it with the authoritative source, product behavior, and target-locale conventions; also read it independently for naturalness. Do not assume existing translations are correct or restrict review to factual errors. Identify omissions, contextual mistranslations, awkward calques, terminology problems, and functional or layout issues. Retain defensible wording; propose justified improvements without rewriting merely to produce changes. If source and target disagree on product facts, inspect relevant evidence rather than automatically overwriting either version.
+
+Separate task scope from editing permission. An audit or review produces findings and proposed corrected copy without editing files. A request to improve or fix the localization authorizes those copy changes within the requested scope; do not stop at a findings list. Respect explicit phase restrictions, but report deferred defects and the reason instead of relabeling them as preferences. Broader architecture changes require their own scope justification.
 
 ## Operating modes
 
