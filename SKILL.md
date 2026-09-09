@@ -28,6 +28,8 @@ Ask the user when two or more defensible localization choices remain after apply
 
 Treat strings as parts of pages and journeys. Inspect neighboring copy, component purpose, screenshots when available, routes, metadata, and repeated terms before translating ambiguous language.
 
+Before asking about an ambiguous string, make a proportionate, read-only context check when the user has identified or already made available a directly relevant source: inspect the nearest source file or catalogue entry, its component, concise project documentation, and a declared public preview when needed. Use only the context necessary to resolve the meaning. Do not broaden into unrelated repositories, services, private data, credentials, or mutations. Ask the user if that evidence remains inconclusive, is unavailable, or would require new access; say what was checked and what decision remains.
+
 Apply the same quality bar in every supported direction. Keep `en-GB`, `en-US`, `es-ES`, and `es-419` strictly separate in spelling, vocabulary, punctuation, formats, idiom, register, and institutional assumptions. `es-419` is a macroregional localization locale, not a claim that Latin America has one dialect; when country-specific usage matters, request or use a country locale such as `es-MX`, `es-AR`, or `es-CO` rather than inventing a universal form.
 
 ## Resolve high-risk language
