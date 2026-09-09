@@ -19,6 +19,13 @@ It also applies that standard outside a webpage: portfolios, CVs, Markdown, docu
 
 For example, **“Checklist for landing in Málaga”** may describe relocation rather than a plane landing. The skill first resolves that intent and can produce **“Lista para instalarte en Málaga”** or another context-appropriate version instead of the literal **“aterrizar”**.
 
+### Two starting points
+
+- **Create a missing language version.** Supply the original website, CV, Markdown file, or other content and the exact target locale. The agent creates complete localized copy using the product context; no existing target translation is needed.
+- **Review or improve an existing localization.** Supply both versions. The agent checks meaning, naturalness, terminology, locale consistency and applicable format constraints. An audit returns findings and proposed wording; a request to fix or improve applies the authorized changes while retaining defensible copy.
+
+Both workflows support English → Spanish and Spanish → English. If a suspected contextual calque changes meaning, it must be reported as an accuracy or fluency defect with a proposed correction. If the evidence cannot settle the reading, the agent must ask before dismissing it as style. Repository updates do not automatically update a previously installed copy of the skill or a frozen benchmark ZIP.
+
 ### What it does
 
 - Localizes in either direction among the four supported locales.
@@ -130,6 +137,13 @@ No es un prompt de sustitución de palabras. Trata cada texto como parte de la e
 También aplica este estándar fuera de una página web: portfolios, CV, Markdown, documentación, correos, formularios, exportaciones de CMS y catálogos de locales. Cambia la comprobación específica del formato, no el requisito de exactitud contextual.
 
 Por ejemplo, **“Checklist for landing in Málaga”** puede hablar de una relocalización, no del aterrizaje de un avión. La skill resuelve primero esa intención y puede proponer **“Lista para instalarte en Málaga”** en vez del calco **“aterrizar”**.
+
+### Dos puntos de partida
+
+- **Crear la versión en el idioma que falta.** Proporciona la web, el CV, el archivo Markdown u otro contenido original y el locale exacto de destino. El agente crea el texto localizado completo usando el contexto del producto; no necesita una traducción previa.
+- **Revisar o mejorar una localización existente.** Proporciona ambas versiones. El agente comprueba significado, naturalidad, terminología, coherencia regional y las restricciones del formato. Una auditoría entrega hallazgos y propuestas de redacción; una petición de corregir o mejorar aplica los cambios autorizados y conserva el texto ya defendible.
+
+Ambos flujos funcionan del inglés al español y del español al inglés. Si un calco contextual cambia el significado, debe señalarse como defecto de exactitud o fluidez y acompañarse de una corrección propuesta. Si las evidencias no permiten resolverlo, el agente debe preguntar antes de descartarlo como estilo. Actualizar el repositorio no actualiza automáticamente una copia instalada anteriormente ni un ZIP de benchmark ya preparado.
 
 ### Qué hace
 
