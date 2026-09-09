@@ -18,6 +18,7 @@ Use these gates for audits and before release. Separate objective defects from o
 ## Linguistic and UX defects
 
 - Literal translation that conflicts with page, domain, or user-journey context.
+- A grammatical calque whose target-language reading selects the wrong real-world sense, journey, or product concept. This is not a preference: classify it as **Accuracy** when meaning changes, otherwise **Fluency**, and include a corrected rendering in an audit.
 - False friends, calques, mixed target-language varieties, inconsistent treatment, or terminology drift.
 - Any cross-locale leakage: UK conventions in `en-US`, US conventions in `en-GB`, Spain-only usage in `es-419`, or Latin-American-only usage in `es-ES`.
 - CTA text that does not predict the resulting action.
@@ -41,6 +42,8 @@ Severity is based on user impact, not how conspicuous the wording looks:
 - **Major:** changes meaning, misleads users, breaks functionality, violates a required term, or materially damages comprehension.
 - **Minor:** localized defect with limited impact that still warrants correction.
 - **Preference:** defensible alternative with no objective defect; never report it as an error.
+
+Do not label a contextual calque as a preference just because readers can infer the intended source-language meaning. Evaluate the target-language reading first: if it naturally evokes a contradictory action, object, setting, or user journey, it is a defect. Severity follows the affected surface: a key product claim, CTA, onboarding step, or safety/recovery instruction is normally at least **Major**; an isolated descriptive phrase may be **Minor**.
 
 A release passes only with zero critical and zero major issues, all deterministic integrity checks passing, and every required surface accounted for. If the project accepts another threshold, state it explicitly.
 
