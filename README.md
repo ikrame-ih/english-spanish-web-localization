@@ -96,7 +96,19 @@ The guidance prioritizes product sources of truth and uses primary references in
 
 ### Benchmark
 
-The repository includes a public, 30-case real-world regression corpus and a blinded human-scoring protocol. Every source/target pair is live copy from `ikrame.dev`, with a public URL, retrieval date, and page locator. It tests contextual interpretation, voice, technical terminology, required clarification, and restraint when the existing target is already defensible. It contains no unverified performance claim: results are added only after paired baseline and skill-assisted runs. See [`benchmarks/`](benchmarks/).
+### Evidence dashboard
+
+| Corpus | Sources | Locale routes | Cases | Result |
+|---|---|---|---:|---|
+| Portfolio regression | `ikrame.dev` | EN → `es-ES` | 30 | Not run |
+| External bidirectional pack | At least 3 independent public products | `es-ES` → `en-GB`/`en-US`; `en-GB`/`en-US` → `es-419` | 30 minimum | Collecting sources |
+
+| Evaluation | Baseline | With skill | Improvement |
+|---|---:|---:|---:|
+| Portfolio regression | — | — | — |
+| External bidirectional pack | — | — | — |
+
+The portfolio corpus is a public, 30-case real-world regression corpus with a blinded human-scoring protocol. Every pair has a public URL, retrieval date, and page locator. It tests contextual interpretation, voice, technical terminology, required clarification, and restraint when the existing target is already defensible. It is evidence for a specific site—not a universal or bidirectional quality claim. The external pack takes priority and has strict admission rules before publication. See [`benchmarks/`](benchmarks/) and [`benchmarks/external/`](benchmarks/external/).
 
 ## Español
 
@@ -192,7 +204,19 @@ La guía prioriza las fuentes de verdad del producto y se apoya en referencias p
 
 ### Benchmark
 
-El repositorio incluye un corpus público de regresión de 30 casos reales y un protocolo de evaluación humana a ciegas. Cada par origen/destino procede de texto activo de `ikrame.dev`, con URL pública, fecha de consulta y localizador de la página. Evalúa interpretación contextual, voz, terminología técnica, aclaraciones obligatorias y la capacidad de no modificar un texto de destino ya defendible. No contiene una afirmación de rendimiento sin verificar: los resultados solo se añaden tras ejecuciones emparejadas, con y sin la skill. Consulta [`benchmarks/`](benchmarks/).
+### Panel de evidencia
+
+| Corpus | Fuentes | Rutas de locales | Casos | Resultado |
+|---|---|---|---:|---|
+| Regresión del portfolio | `ikrame.dev` | EN → `es-ES` | 30 | Sin ejecutar |
+| Pack externo bidireccional | Al menos 3 productos públicos independientes | `es-ES` → `en-GB`/`en-US`; `en-GB`/`en-US` → `es-419` | 30 como mínimo | Recopilando fuentes |
+
+| Evaluación | Base | Con la skill | Mejora |
+|---|---:|---:|---:|
+| Regresión del portfolio | — | — | — |
+| Pack externo bidireccional | — | — | — |
+
+El corpus del portfolio es una regresión pública de 30 casos reales con evaluación humana a ciegas. Cada par tiene URL pública, fecha de consulta y localizador de página. Evalúa interpretación contextual, voz, terminología técnica, aclaraciones obligatorias y la capacidad de no modificar un texto de destino ya defendible. Es evidencia de un sitio concreto, no una afirmación universal ni bidireccional. El pack externo tiene prioridad y solo se publicará cuando cumpla reglas estrictas de admisión. Consulta [`benchmarks/`](benchmarks/) y [`benchmarks/external/`](benchmarks/external/).
 
 ## License
 
