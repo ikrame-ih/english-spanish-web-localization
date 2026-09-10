@@ -2,7 +2,7 @@
 
 Skill-guided **audit** of a small, deliberately defective `es-ES` UI/catalog set. The goal is to show the skill applying [`references/quality-gates.md`](../../references/quality-gates.md) and the deterministic catalog checker (`scripts/locale_guard.py`), not to report paired Instant scores. Those Instant numbers live only in [`instant-mini-2026-09-10/`](instant-mini-2026-09-10/).
 
-This write-up is an **author-reviewed example**. It is not the 30-case blinded portfolio protocol.
+This write-up is an example I checked myself. The full 30-case blind review is still ahead.
 
 ## Scope
 

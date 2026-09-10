@@ -13,5 +13,5 @@
 | ikrame-08 | https://ikrame.dev/ — technical terminology string | `ask` (house-style: keep EN terms vs localize?) |
 | mtt-05 | MTT-style UI position pair (Above) | `change` → *Arriba* (baseline already correct; skill not re-run) |
 
-## Human review note
-Author review of this Instant probe only — **not** the 30-case blinded portfolio protocol. No improvement percentage claimed for the full corpus.
+## Notes
+I checked this Instant run myself. The full 30-case blind review is still ahead. This is not a score for the whole set.
