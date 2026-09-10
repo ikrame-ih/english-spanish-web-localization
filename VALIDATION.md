@@ -46,6 +46,7 @@ Confirm the skill folder name is `english-spanish-web-localization` and that `SK
 - [ ] Benchmark tables show honest status (Not run / Collecting) until scores exist
 - [ ] No fake paired screenshots in README
 - [ ] `benchmarks/showcase.md` rules respected
+- [ ] Instant mini-proof folder present (`benchmarks/results/instant-mini-2026-09-10/`) (optional human check)
 - [ ] Any usage-heavy paired run has a recorded model, date, and blinded review plan
 - [ ] Skills CLI install smoke: folder appears under the agent skills dir with SKILL.md + references/
 

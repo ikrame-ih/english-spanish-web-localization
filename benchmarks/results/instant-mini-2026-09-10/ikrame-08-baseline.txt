@@ -1,0 +1,1 @@
+{"verdict":"pass","revised_copy":null,"question":null,"rationale":"En un contexto técnico de APIs y agentes, mantener «prompts», «skills» y «routing» en inglés es terminología habitual y resulta natural en es-ES."}

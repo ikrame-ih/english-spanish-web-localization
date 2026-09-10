@@ -1,0 +1,1 @@
+{"verdict":"pass","revised_copy":null,"question":null,"rationale":"«Aterrizar» funciona de forma natural y contextual en es-ES para describir los primeros trámites al llegar a Málaga, y «padrón», «NIE» y «Seguridad Social» son términos adecuados."}

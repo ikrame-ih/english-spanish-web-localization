@@ -1,0 +1,1 @@
+{"verdict":"change","revised_copy":"Arriba","question":null,"rationale":"En un selector de posición emparejado con «Below», «Above» debe localizarse como «Arriba» en es-419."}
