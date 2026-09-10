@@ -2,10 +2,10 @@
 
 Model: ChatGPT Instant. Fresh chat per condition. Raw JSON replies in this folder.
 
-| Case | Gold | No skill | With skill | Author review |
+| Case | Expected | No skill | With skill | Notes |
 |---|---|---|---|---|
-| ikrame-19 | change (settle/install wording; avoid *aterrizar*) | `pass` — accepted *aterrizar* | `change` → `Guía para instalarse en Málaga: padrón, NIE, Seguridad Social.` | Skill recovered the contextual calque; baseline missed it. |
-| ikrame-08 | ask (house style on EN tech terms) | `pass` — kept prompts/skills/routing in EN | `change` → localized *routing* → *enrutamiento*; still no question | Skill was stricter but did not match gold `ask`. Include as imperfect / non-gold outcome. |
-| mtt-05 | change → *Arriba* | `change` → *Arriba* | not re-run (baseline already matched gold) | Non-improvement / already-correct baseline. |
+| ikrame-19 | change (settle/install wording; avoid *aterrizar*) | `pass` — accepted *aterrizar* | `change` → `Guía para instalarse en Málaga: padrón, NIE, Seguridad Social.` | Caught the aterrizar calque; without the skill it was missed. |
+| ikrame-08 | ask (house style on EN tech terms) | `pass` — kept prompts/skills/routing in EN | `change` → localized *routing* → *enrutamiento*; still no question | Pushed harder on anglicisms but still did not ask about house style. |
+| mtt-05 | change → *Arriba* | `change` → *Arriba* | not re-run (baseline already matched) | Baseline was already right; skill not re-run. |
 
-No corpus-wide improvement percentage is claimed.
+I checked these myself. The full 30-case blind review is still ahead. This is not a score for the whole set.

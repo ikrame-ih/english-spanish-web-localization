@@ -13,7 +13,7 @@ A reusable agent skill for context-aware, bidirectional localization of websites
 | `es-ES` | Spanish for Spain |
 | `es-419` | Broad Latin American Spanish |
 
-> Offline package checks pass ([VALIDATION.md](VALIDATION.md)). Instant mini-proof published under [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/) (author review, not the 30-case blinded protocol); full portfolio/external paired scores still pending. Not for certified/sworn, legal, medical, or financial translation. Does not promise universal ATS compatibility.
+> Offline package checks pass ([VALIDATION.md](VALIDATION.md)). Instant mini-proof: [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/). I checked these myself; the full 30-case blind review is still ahead. Portfolio and external paired scores are still pending. Not for certified/sworn, legal, medical, or financial translation. Does not promise universal ATS compatibility.
 
 This is not a word-replacement prompt. It treats copy as part of a product journey and evaluates meaning, audience, market, interface function, terminology, accessibility, SEO, layout constraints, and technical integrity before selecting a target formulation.
 
@@ -126,19 +126,19 @@ Full portfolio and external paired scores are not published yet (those corpora a
 |---|---|---|---:|---|
 | Portfolio regression | `ikrame.dev` | EN → `es-ES` | 30 | Not run |
 | External bidirectional pack | At least 3 independent public products | `es-ES` → `en-GB`/`en-US`; `en-GB`/`en-US` → `es-419` | 30 minimum | Collecting sources |
-| Instant mini-proof | `ikrame.dev` (+ one UI pair) | audit JSON Instant | 2 paired + 1 baseline-only | Published (author review) |
+| Instant mini-proof | `ikrame.dev` (+ one UI pair) | audit JSON Instant | 2 paired + 1 baseline-only | Published (checked) |
 
 The portfolio corpus is a public, 30-case real-world regression corpus with a blinded human-scoring protocol. Every pair has a public URL, retrieval date, and page locator. It tests contextual interpretation, voice, technical terminology, required clarification, and restraint when the existing target is already defensible. It is evidence for a specific site—not a universal or bidirectional quality claim. The external pack takes priority and has strict admission rules before publication. See [`benchmarks/`](benchmarks/) and [`benchmarks/external/`](benchmarks/external/).
 
 ### Visual paired evidence
 
-Author-reviewed Instant cards (not blinded 30-case scoring). Raw JSON in [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/). UI screenshots are added only when the same real component has been rendered at the same viewport. See [`benchmarks/showcase.md`](benchmarks/showcase.md).
+Instant examples I checked. Raw JSON in [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/). Screenshots only when the same UI was captured at the same size. See [`benchmarks/showcase.md`](benchmarks/showcase.md).
 
 | Real source | No skill | With skill | Human review |
 |---|---|---|---|
-| [ikrame.dev — Málaga Onboarding](https://ikrame.dev/) | pass (accepted «aterrizar») — raw: benchmarks/results/instant-mini-2026-09-10/ikrame-19-baseline.txt | change → «Guía para instalarse en Málaga: padrón, NIE, Seguridad Social.» — raw: benchmarks/results/instant-mini-2026-09-10/ikrame-19-skill.txt | Author review: skill recovered contextual calque; baseline missed it. Not blinded 30-case protocol. |
-| [ikrame.dev — Section 01 IA](https://ikrame.dev/) | pass (kept prompts/skills/routing EN) — benchmarks/results/instant-mini-2026-09-10/ikrame-08-baseline.txt | change → enrutamiento; no ask — benchmarks/results/instant-mini-2026-09-10/ikrame-08-skill.txt | Author review: skill stricter but missed gold `ask`. Imperfect / non-gold. |
-| UI position Above (es-419) | change → Arriba — benchmarks/results/instant-mini-2026-09-10/mtt-05-baseline.txt | (skill not re-run; baseline already matched gold) | Non-improvement / already-correct baseline. |
+| [ikrame.dev — Málaga Onboarding](https://ikrame.dev/) | pass (accepted «aterrizar») — [`ikrame-19-baseline.txt`](benchmarks/results/instant-mini-2026-09-10/ikrame-19-baseline.txt) | change → «Guía para instalarse en Málaga: padrón, NIE, Seguridad Social.» — [`ikrame-19-skill.txt`](benchmarks/results/instant-mini-2026-09-10/ikrame-19-skill.txt) | Caught the aterrizar calque; without the skill it was missed. |
+| [ikrame.dev — Section 01 IA](https://ikrame.dev/) | pass (kept prompts/skills/routing EN) — [`ikrame-08-baseline.txt`](benchmarks/results/instant-mini-2026-09-10/ikrame-08-baseline.txt) | change → enrutamiento; no ask — [`ikrame-08-skill.txt`](benchmarks/results/instant-mini-2026-09-10/ikrame-08-skill.txt) | Pushed harder on anglicisms but still did not ask about house style. |
+| UI position Above (es-419) | change → Arriba — [`mtt-05-baseline.txt`](benchmarks/results/instant-mini-2026-09-10/mtt-05-baseline.txt) | (skill not re-run; baseline already matched gold) | Baseline was already right; skill not re-run. |
 
 ## Español
 
@@ -151,7 +151,7 @@ Una skill reutilizable para agentes que localiza de forma contextual y bidirecci
 | `es-ES` | Español de España |
 | `es-419` | Español latinoamericano general |
 
-> Las comprobaciones offline del paquete pasan ([VALIDATION.md](VALIDATION.md)). Hay una mini-prueba Instant publicada en [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/) (revisión de la autora, no el protocolo a ciegas de 30 casos); las puntuaciones emparejadas del portfolio y del pack externo siguen pendientes. No sirve para traducción jurada ni textos legales, médicos o financieros. No promete compatibilidad universal con todos los ATS.
+> Las comprobaciones offline del paquete pasan ([VALIDATION.md](VALIDATION.md)). Mini-prueba Instant: [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/). Las revisé yo misma; la revisión ciega completa de 30 casos todavía no está hecha. Las puntuaciones emparejadas del portfolio y del pack externo siguen pendientes. No sirve para traducción jurada ni textos legales, médicos o financieros. No promete compatibilidad universal con todos los ATS.
 
 No es un prompt de sustitución de palabras. Trata cada texto como parte de la experiencia del producto y valora significado, público, mercado, función de la interfaz, terminología, accesibilidad, SEO, restricciones de espacio e integridad técnica antes de elegir la formulación final.
 
@@ -264,19 +264,19 @@ Las puntuaciones emparejadas del portfolio completo y del pack externo aún no e
 |---|---|---|---:|---|
 | Regresión del portfolio | `ikrame.dev` | EN → `es-ES` | 30 | Sin ejecutar |
 | Pack externo bidireccional | Al menos 3 productos públicos independientes | `es-ES` → `en-GB`/`en-US`; `en-GB`/`en-US` → `es-419` | 30 como mínimo | Recopilando fuentes |
-| Mini-prueba Instant | `ikrame.dev` (+ un par de IU) | JSON de auditoría Instant | 2 emparejados + 1 solo base | Publicada (revisión de la autora) |
+| Mini-prueba Instant | `ikrame.dev` (+ un par de IU) | JSON de auditoría Instant | 2 emparejados + 1 solo base | Publicada (revisada) |
 
 El corpus del portfolio es una regresión pública de 30 casos reales con evaluación humana a ciegas. Cada par tiene URL pública, fecha de consulta y localizador de página. Evalúa interpretación contextual, voz, terminología técnica, aclaraciones obligatorias y la capacidad de no modificar un texto de destino ya defendible. Es evidencia de un sitio concreto, no una afirmación universal ni bidireccional. El pack externo tiene prioridad y solo se publicará cuando cumpla reglas estrictas de admisión. Consulta [`benchmarks/`](benchmarks/) y [`benchmarks/external/`](benchmarks/external/).
 
 ### Evidencia visual emparejada
 
-Fichas Instant revisadas por la autora (no es la puntuación a ciegas de 30 casos). JSON bruto en [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/). Las capturas de interfaz solo se añadirán si el mismo componente real se ha renderizado en el mismo viewport. Consulta [`benchmarks/showcase.md`](benchmarks/showcase.md).
+Ejemplos Instant que revisé yo. JSON en bruto en [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/). Capturas solo cuando la misma interfaz se grabó al mismo tamaño. Consulta [`benchmarks/showcase.md`](benchmarks/showcase.md).
 
 | Fuente real | Sin skill | Con skill | Revisión humana |
 |---|---|---|---|
-| [ikrame.dev — Málaga Onboarding](https://ikrame.dev/) | pass (aceptó «aterrizar») — bruto: benchmarks/results/instant-mini-2026-09-10/ikrame-19-baseline.txt | change → «Guía para instalarse en Málaga: padrón, NIE, Seguridad Social.» — bruto: benchmarks/results/instant-mini-2026-09-10/ikrame-19-skill.txt | Revisión de la autora: la skill recuperó el calco contextual; la base no. No es el protocolo a ciegas de 30 casos. |
-| [ikrame.dev — Sección 01 IA](https://ikrame.dev/) | pass (mantuvo prompts/skills/routing en EN) — benchmarks/results/instant-mini-2026-09-10/ikrame-08-baseline.txt | change → enrutamiento; sin ask — benchmarks/results/instant-mini-2026-09-10/ikrame-08-skill.txt | Revisión de la autora: la skill fue más estricta, pero no acertó el `ask` de referencia. Resultado imperfecto / no coincidente con el gold. |
-| Posición de IU Above (es-419) | change → Arriba — benchmarks/results/instant-mini-2026-09-10/mtt-05-baseline.txt | (skill no repetida; la base ya coincidía con el gold) | Sin mejora / base ya correcta. |
+| [ikrame.dev — Málaga Onboarding](https://ikrame.dev/) | pass (aceptó «aterrizar») — [`ikrame-19-baseline.txt`](benchmarks/results/instant-mini-2026-09-10/ikrame-19-baseline.txt) | change → «Guía para instalarse en Málaga: padrón, NIE, Seguridad Social.» — [`ikrame-19-skill.txt`](benchmarks/results/instant-mini-2026-09-10/ikrame-19-skill.txt) | Detectó el calco de aterrizar; sin la skill se pasó por alto. |
+| [ikrame.dev — Sección 01 IA](https://ikrame.dev/) | pass (mantuvo prompts/skills/routing en EN) — [`ikrame-08-baseline.txt`](benchmarks/results/instant-mini-2026-09-10/ikrame-08-baseline.txt) | change → enrutamiento; sin ask — [`ikrame-08-skill.txt`](benchmarks/results/instant-mini-2026-09-10/ikrame-08-skill.txt) | Fue más estricta con los anglicismos, pero no preguntó por el estilo de la casa. |
+| Posición de IU Above (es-419) | change → Arriba — [`mtt-05-baseline.txt`](benchmarks/results/instant-mini-2026-09-10/mtt-05-baseline.txt) | (skill no repetida; la base ya coincidía con el gold) | La base ya estaba bien; no se volvió a ejecutar la skill. |
 
 ## License
 
