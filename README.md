@@ -13,6 +13,8 @@ A reusable agent skill for context-aware, bidirectional localization of websites
 | `es-ES` | Spanish for Spain |
 | `es-419` | Broad Latin American Spanish |
 
+> **Beta.** Offline package checks pass ([VALIDATION.md](VALIDATION.md)). Paired benchmark scores are pending; empty tables below are intentional. Not for certified/sworn, legal, medical, or financial translation. Does not promise universal ATS compatibility.
+
 This is not a word-replacement prompt. It treats copy as part of a product journey and evaluates meaning, audience, market, interface function, terminology, accessibility, SEO, layout constraints, and technical integrity before selecting a target formulation.
 
 It also applies that standard outside a webpage: portfolios, CVs, Markdown, documentation, emails, forms, CMS exports, and locale catalogues. The format changes the checks, not the required contextual accuracy.
@@ -48,6 +50,9 @@ Install it with the Skills CLI in any supported agent environment:
 ```bash
 npx skills add ikrame-ih/english-spanish-web-localization
 ```
+
+- After install, confirm the folder `english-spanish-web-localization` contains `SKILL.md`, `references/`, and `scripts/locale_guard.py`. Updating this repo does not auto-update an older installed copy.
+- Optional local CI note: there is a GitHub Action for `python3 -m unittest tests.test_locale_guard -v`; you can also run that command locally anytime.
 
 Alternatively, clone the repository into the skills directory used by your agent. The folder name must match the skill name:
 
@@ -142,6 +147,8 @@ Una skill reutilizable para agentes que localiza de forma contextual y bidirecci
 | `es-ES` | Español de España |
 | `es-419` | Español latinoamericano general |
 
+> **Beta.** Las comprobaciones offline del paquete pasan ([VALIDATION.md](VALIDATION.md)). Las puntuaciones de benchmark emparejado están pendientes; las tablas vacías son intencionadas. No sirve para traducción jurada ni textos legales, médicos o financieros. No promete compatibilidad universal con todos los ATS.
+
 No es un prompt de sustitución de palabras. Trata cada texto como parte de la experiencia del producto y valora significado, público, mercado, función de la interfaz, terminología, accesibilidad, SEO, restricciones de espacio e integridad técnica antes de elegir la formulación final.
 
 También aplica este estándar fuera de una página web: portfolios, CV, Markdown, documentación, correos, formularios, exportaciones de CMS y catálogos de locales. Cambia la comprobación específica del formato, no el requisito de exactitud contextual.
@@ -177,6 +184,9 @@ Instálala con la CLI de Skills en cualquier entorno de agente compatible:
 ```bash
 npx skills add ikrame-ih/english-spanish-web-localization
 ```
+
+- Después de instalar, confirma que la carpeta `english-spanish-web-localization` contiene `SKILL.md`, `references/` y `scripts/locale_guard.py`. Actualizar este repositorio no actualiza automáticamente una copia instalada anterior.
+- CI local opcional: hay una GitHub Action para `python3 -m unittest tests.test_locale_guard -v`; también puedes ejecutar ese comando en local en cualquier momento.
 
 También puedes clonar el repositorio en el directorio de skills de tu agente. El nombre de la carpeta debe coincidir con el de la skill:
 
