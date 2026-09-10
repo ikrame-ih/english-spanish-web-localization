@@ -1,0 +1,1 @@
+{"verdict":"change","revised_copy":"En las APIs y con agentes: prompts, skills, enrutamiento, contexto.","question":null,"rationale":"«Routing» tiene un equivalente técnico asentado en español («enrutamiento»), mientras que «prompts» y «skills» son anglicismos técnicos más defendibles en este contexto."}

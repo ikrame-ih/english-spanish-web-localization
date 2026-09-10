@@ -1,0 +1,1 @@
+{"verdict":"change","revised_copy":"Guía para instalarse en Málaga: padrón, NIE, Seguridad Social.","question":null,"rationale":"«Aterrizar» es un calco demasiado literal de «landing» en este contexto; «instalarse» expresa de forma natural la llegada y establecimiento en Málaga en es-ES."}
