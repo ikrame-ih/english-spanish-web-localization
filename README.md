@@ -65,6 +65,14 @@ Example request for agents with explicit invocation:
 Use $english-spanish-web-localization to localize this product site from en-US to es-ES. Preserve the concise brand voice, audit responsive text fit, and ask me before resolving any material preference that the available context does not settle.
 ```
 
+### Offline checks
+
+Before spending model quota on paired benchmarks, run the offline package checks documented in [`VALIDATION.md`](VALIDATION.md):
+
+```bash
+python3 -m unittest tests.test_locale_guard -v
+```
+
 ### Workflow
 
 1. Establish the exact source and target locales, audience, voice, domain, content surfaces, and UI constraints.
@@ -102,6 +110,8 @@ The skill supports localization, audits, terminology, strategy, and QA. It does 
 The guidance prioritizes product sources of truth and uses primary references including RAE/ASALE, FundéuRAE, Unicode CLDR and UTS #35, W3C Internationalization and WCAG, Google Search Central, Greenhouse, and Textkernel. See [`references/research-and-evidence.md`](references/research-and-evidence.md).
 
 ### Benchmark
+
+Paired scores stay empty until a controlled run and blinded review exist. Offline package checks are in [`VALIDATION.md`](VALIDATION.md). Showcase rules: [`benchmarks/showcase.md`](benchmarks/showcase.md).
 
 ### Evidence dashboard
 
@@ -184,6 +194,14 @@ Ejemplo para agentes con invocación explícita:
 Usa $english-spanish-web-localization para localizar este sitio de producto de en-US a es-ES. Conserva la voz concisa de la marca, revisa el encaje del texto en responsive y pregúntame antes de resolver cualquier preferencia relevante que el contexto disponible no determine.
 ```
 
+### Comprobaciones sin llamadas a modelos
+
+Antes de gastar cuota en benchmarks emparejados, ejecuta las pruebas del paquete descritas en [`VALIDATION.md`](VALIDATION.md):
+
+```bash
+python3 -m unittest tests.test_locale_guard -v
+```
+
 ### Flujo de trabajo
 
 1. Determina los locales exactos de origen y destino, el público, la voz, el dominio, las superficies de contenido y las restricciones de interfaz.
@@ -221,6 +239,8 @@ La skill sirve para localización, auditoría, terminología, estrategia y QA. N
 La guía prioriza las fuentes de verdad del producto y se apoya en referencias primarias como RAE/ASALE, FundéuRAE, Unicode CLDR y UTS #35, W3C Internationalization y WCAG, Google Search Central, Greenhouse y Textkernel. Consulta [`references/research-and-evidence.md`](references/research-and-evidence.md).
 
 ### Benchmark
+
+Las puntuaciones emparejadas permanecen vacías hasta una ejecución controlada y revisión a ciegas. Comprobaciones del paquete sin cuota: [`VALIDATION.md`](VALIDATION.md). Reglas del showcase: [`benchmarks/showcase.md`](benchmarks/showcase.md).
 
 ### Panel de evidencia
 
