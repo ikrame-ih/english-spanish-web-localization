@@ -47,6 +47,7 @@ Confirm the skill folder name is `english-spanish-web-localization` and that `SK
 - [ ] No fake paired screenshots in README
 - [ ] `benchmarks/showcase.md` rules respected
 - [ ] Any usage-heavy paired run has a recorded model, date, and blinded review plan
+- [ ] Skills CLI install smoke: folder appears under the agent skills dir with SKILL.md + references/
 
 ## ChatGPT / Cursor note
 

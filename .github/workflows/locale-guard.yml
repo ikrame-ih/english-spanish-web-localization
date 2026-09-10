@@ -1,0 +1,15 @@
+name: locale-guard
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run locale_guard tests
+        run: python3 -m unittest tests.test_locale_guard -v
