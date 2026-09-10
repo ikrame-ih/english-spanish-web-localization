@@ -13,7 +13,7 @@ A reusable agent skill for context-aware, bidirectional localization of websites
 | `es-ES` | Spanish for Spain |
 | `es-419` | Broad Latin American Spanish |
 
-> **Beta.** Offline package checks pass ([VALIDATION.md](VALIDATION.md)). Instant mini-proof published under [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/) (author review, not the 30-case blinded protocol); full portfolio/external paired scores still pending. Not for certified/sworn, legal, medical, or financial translation. Does not promise universal ATS compatibility.
+> Offline package checks pass ([VALIDATION.md](VALIDATION.md)). Instant mini-proof published under [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/) (author review, not the 30-case blinded protocol); full portfolio/external paired scores still pending. Not for certified/sworn, legal, medical, or financial translation. Does not promise universal ATS compatibility.
 
 This is not a word-replacement prompt. It treats copy as part of a product journey and evaluates meaning, audience, market, interface function, terminology, accessibility, SEO, layout constraints, and technical integrity before selecting a target formulation.
 
@@ -151,7 +151,7 @@ Una skill reutilizable para agentes que localiza de forma contextual y bidirecci
 | `es-ES` | Español de España |
 | `es-419` | Español latinoamericano general |
 
-> **Beta.** Las comprobaciones offline del paquete pasan ([VALIDATION.md](VALIDATION.md)). Hay una mini-prueba Instant publicada en [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/) (revisión de la autora, no el protocolo a ciegas de 30 casos); las puntuaciones emparejadas del portfolio y del pack externo siguen pendientes. No sirve para traducción jurada ni textos legales, médicos o financieros. No promete compatibilidad universal con todos los ATS.
+> Las comprobaciones offline del paquete pasan ([VALIDATION.md](VALIDATION.md)). Hay una mini-prueba Instant publicada en [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/) (revisión de la autora, no el protocolo a ciegas de 30 casos); las puntuaciones emparejadas del portfolio y del pack externo siguen pendientes. No sirve para traducción jurada ni textos legales, médicos o financieros. No promete compatibilidad universal con todos los ATS.
 
 No es un prompt de sustitución de palabras. Trata cada texto como parte de la experiencia del producto y valora significado, público, mercado, función de la interfaz, terminología, accesibilidad, SEO, restricciones de espacio e integridad técnica antes de elegir la formulación final.
 
