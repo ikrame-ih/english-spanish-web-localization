@@ -13,7 +13,7 @@ A reusable agent skill for context-aware, bidirectional localization of websites
 | `es-ES` | Spanish for Spain |
 | `es-419` | Broad Latin American Spanish |
 
-> **Beta.** Offline package checks pass ([VALIDATION.md](VALIDATION.md)). Instant mini-proof published under [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/) (author review, not the 30-case blinded protocol); full portfolio/external paired scores still pending. Not for certified/sworn, legal, medical, or financial translation. Does not promise universal ATS compatibility.
+> Offline package checks pass ([VALIDATION.md](VALIDATION.md)). Instant mini-proof published under [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/) (author review, not the 30-case blinded protocol); full portfolio/external paired scores still pending. Not for certified/sworn, legal, medical, or financial translation. Does not promise universal ATS compatibility.
 
 This is not a word-replacement prompt. It treats copy as part of a product journey and evaluates meaning, audience, market, interface function, terminology, accessibility, SEO, layout constraints, and technical integrity before selecting a target formulation.
 
@@ -118,7 +118,7 @@ The guidance prioritizes product sources of truth and uses primary references in
 
 ### Benchmark
 
-Paired scores stay empty until a controlled run and blinded review exist. Offline package checks are in [`VALIDATION.md`](VALIDATION.md). Showcase rules: [`benchmarks/showcase.md`](benchmarks/showcase.md).
+Full portfolio and external paired scores are not published yet (those corpora are Not run / collecting). Offline package checks: [`VALIDATION.md`](VALIDATION.md). Instant mini-proof case cards and raw outputs are published below and under [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/). Showcase rules: [`benchmarks/showcase.md`](benchmarks/showcase.md).
 
 ### Evidence dashboard
 
@@ -127,11 +127,6 @@ Paired scores stay empty until a controlled run and blinded review exist. Offlin
 | Portfolio regression | `ikrame.dev` | EN → `es-ES` | 30 | Not run |
 | External bidirectional pack | At least 3 independent public products | `es-ES` → `en-GB`/`en-US`; `en-GB`/`en-US` → `es-419` | 30 minimum | Collecting sources |
 | Instant mini-proof | `ikrame.dev` (+ one UI pair) | audit JSON Instant | 2 paired + 1 baseline-only | Published (author review) |
-
-| Evaluation | Baseline | With skill | Improvement |
-|---|---:|---:|---:|
-| Portfolio regression | — | — | — |
-| External bidirectional pack | — | — | — |
 
 The portfolio corpus is a public, 30-case real-world regression corpus with a blinded human-scoring protocol. Every pair has a public URL, retrieval date, and page locator. It tests contextual interpretation, voice, technical terminology, required clarification, and restraint when the existing target is already defensible. It is evidence for a specific site—not a universal or bidirectional quality claim. The external pack takes priority and has strict admission rules before publication. See [`benchmarks/`](benchmarks/) and [`benchmarks/external/`](benchmarks/external/).
 
@@ -156,7 +151,7 @@ Una skill reutilizable para agentes que localiza de forma contextual y bidirecci
 | `es-ES` | Español de España |
 | `es-419` | Español latinoamericano general |
 
-> **Beta.** Las comprobaciones offline del paquete pasan ([VALIDATION.md](VALIDATION.md)). Hay una mini-prueba Instant publicada en [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/) (revisión de la autora, no el protocolo a ciegas de 30 casos); las puntuaciones emparejadas del portfolio y del pack externo siguen pendientes. No sirve para traducción jurada ni textos legales, médicos o financieros. No promete compatibilidad universal con todos los ATS.
+> Las comprobaciones offline del paquete pasan ([VALIDATION.md](VALIDATION.md)). Hay una mini-prueba Instant publicada en [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/) (revisión de la autora, no el protocolo a ciegas de 30 casos); las puntuaciones emparejadas del portfolio y del pack externo siguen pendientes. No sirve para traducción jurada ni textos legales, médicos o financieros. No promete compatibilidad universal con todos los ATS.
 
 No es un prompt de sustitución de palabras. Trata cada texto como parte de la experiencia del producto y valora significado, público, mercado, función de la interfaz, terminología, accesibilidad, SEO, restricciones de espacio e integridad técnica antes de elegir la formulación final.
 
@@ -261,7 +256,7 @@ La guía prioriza las fuentes de verdad del producto y se apoya en referencias p
 
 ### Benchmark
 
-Las puntuaciones emparejadas permanecen vacías hasta una ejecución controlada y revisión a ciegas. Comprobaciones del paquete sin cuota: [`VALIDATION.md`](VALIDATION.md). Reglas del showcase: [`benchmarks/showcase.md`](benchmarks/showcase.md).
+Las puntuaciones emparejadas del portfolio completo y del pack externo aún no están publicadas (esos corpus figuran como Sin ejecutar / Recopilando fuentes). Comprobaciones del paquete sin conexión: [`VALIDATION.md`](VALIDATION.md). Las fichas de la mini-prueba Instant y los resultados en bruto están publicados más abajo y en [`benchmarks/results/instant-mini-2026-09-10/`](benchmarks/results/instant-mini-2026-09-10/). Reglas del showcase: [`benchmarks/showcase.md`](benchmarks/showcase.md).
 
 ### Panel de evidencia
 
@@ -270,11 +265,6 @@ Las puntuaciones emparejadas permanecen vacías hasta una ejecución controlada 
 | Regresión del portfolio | `ikrame.dev` | EN → `es-ES` | 30 | Sin ejecutar |
 | Pack externo bidireccional | Al menos 3 productos públicos independientes | `es-ES` → `en-GB`/`en-US`; `en-GB`/`en-US` → `es-419` | 30 como mínimo | Recopilando fuentes |
 | Mini-prueba Instant | `ikrame.dev` (+ un par de IU) | JSON de auditoría Instant | 2 emparejados + 1 solo base | Publicada (revisión de la autora) |
-
-| Evaluación | Base | Con la skill | Mejora |
-|---|---:|---:|---:|
-| Regresión del portfolio | — | — | — |
-| Pack externo bidireccional | — | — | — |
 
 El corpus del portfolio es una regresión pública de 30 casos reales con evaluación humana a ciegas. Cada par tiene URL pública, fecha de consulta y localizador de página. Evalúa interpretación contextual, voz, terminología técnica, aclaraciones obligatorias y la capacidad de no modificar un texto de destino ya defendible. Es evidencia de un sitio concreto, no una afirmación universal ni bidireccional. El pack externo tiene prioridad y solo se publicará cuando cumpla reglas estrictas de admisión. Consulta [`benchmarks/`](benchmarks/) y [`benchmarks/external/`](benchmarks/external/).
 
